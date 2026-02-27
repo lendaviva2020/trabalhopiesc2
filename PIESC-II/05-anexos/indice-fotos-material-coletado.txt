@@ -1,0 +1,32 @@
+<!-- cSpell:disable -->
+ÍNDICE DAS FOTOS – Material coletado (lixo eletrônico)
+Projeto PIESC II – Transformando Lixo Eletrônico em Energia
+Data das fotos: 27/02/2026
+========================================================
+
+TIPOS DE MATERIAL COLETADO (resumo para o relatório):
+- Fontes (fontes de alimentação / PSU)
+- Notebooks
+- HD (discos rígidos)
+- SSD (unidades de estado sólido)
+- Memória (módulos de RAM)
+- Baterias
+- Celulares e tablets
+- Placas-mãe, coolers, cabos e outros componentes de PC
+
+Use a lista abaixo para referenciar as imagens no Relatório Final (ex.: "Anexo A – Figura 1").
+
+MVIMG_20260227_152356.jpg
+  → Material coletado: celulares, tablets e notebooks em conjunto (telas quebradas, notebooks, embalagens). Vista geral do lixo eletrônico reunido.
+
+MVIMG_20260227_152528.jpg
+  → Disco rígido (HD) Western Digital Blue 500GB (modelo WD5000AAKX), coletado como resíduo eletrônico. Detalhe do equipamento para registro.
+
+MVIMG_20260227_154203.jpg
+  → Computador desktop desmontado: placa-mãe, HD Samsung, cooler, cabos e fonte. Caixa com ícones de celular ao fundo. Componentes para reaproveitamento ou descarte adequado.
+
+MVIMG_20260227_154206.jpg
+  → Outra vista do gabinete aberto: placa-mãe, fonte (PSU), HD Samsung, ventiladores e cabos. Evidência da coleta de componentes de PC.
+
+========================================================
+No relatório: inclua as imagens nos Anexos e cite no texto. Exemplo de redação: "O material coletado incluiu fontes de alimentação, notebooks, HDs, SSDs, memórias (RAM), baterias, celulares, tablets e componentes de desktop (placa-mãe, coolers, cabos), conforme registrado no Anexo A (Figuras 1 a 4)."

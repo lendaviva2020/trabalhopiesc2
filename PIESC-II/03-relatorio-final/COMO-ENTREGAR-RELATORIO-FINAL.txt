@@ -1,0 +1,27 @@
+RELATÓRIO FINAL – COMO ENTREGAR
+================================
+
+Arquivos gerados:
+- Relatorio-Final-PIESC-II-2025-Luis-Felipe-Castro.html (abrir no navegador)
+- Relatorio-Final-PIESC-II-2025-Luis-Felipe-Castro.pdf (já gerado; ~10 páginas de texto + anexos)
+
+O relatório contém:
+- Capa, folha de rosto, sumário, resumo e palavras-chave
+- 1. Introdução
+- 2. Revisão bibliográfica (lixo eletrônico, impactos, marco legal, consumo consciente, papel do engenheiro)
+- 3. Metodologia (revisão, questionário Google Forms, coleta e fotos)
+- 4. Resultados e discussão (questionário, material coletado, fotos, limitações)
+- 5. Conclusão e recomendações
+- Referências (ABNT)
+- Anexos (descrição das 4 figuras – fotos do material coletado)
+
+Para incluir as FOTOS no PDF/Word:
+1. Abra a pasta 05-anexos e as imagens MVIMG_20260227_152356.jpg, 152528.jpg, 154203.jpg, 154206.jpg.
+2. Se for entregar em Word: abra o PDF no Word (ou copie o conteúdo do HTML) e insira as 4 imagens na seção Anexos, como Figura 1 a 4.
+3. Se a disciplina aceitar só o PDF atual: o texto já descreve as figuras; as fotos podem ser anexadas em arquivo separado se a professora pedir.
+
+Onde entregar:
+- Portal Uningá → PIESC II → bloco "Relatório Final"
+- Respeitar o prazo indicado na disciplina.
+
+Se tiver mais respostas do questionário: inclua uma tabela ou gráfico na seção 4 (Resultados) com os percentuais das perguntas.
