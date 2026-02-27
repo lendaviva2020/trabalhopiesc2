@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Questionário – Lixo Eletrônico e Energia | PIESC II</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', system-ui, sans-serif;
+            max-width: 520px;
+            margin: 0 auto;
+            padding: 16px;
+            background: #f5f5f5;
+            color: #222;
+            line-height: 1.5;
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            color: #1a5f4a;
+            margin-bottom: 4px;
+        }
+
+        .subtitulo {
+            font-size: 0.85rem;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        section {
+            background: #fff;
+            border-radius: 10px;
+            padding: 18px;
+            margin-bottom: 16px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+
+        section h2 {
+            font-size: 1rem;
+            color: #1a5f4a;
+            margin: 0 0 14px 0;
+            border-bottom: 1px solid #e0e0e0;
+            padding-bottom: 6px;
+        }
+
+        .pergunta {
+            margin-bottom: 18px;
+        }
+
+        .pergunta strong {
+            display: block;
+            margin-bottom: 8px;
+            font-size: 0.95rem;
+        }
+
+        label {
+            display: block;
+            margin: 6px 0 6px 20px;
+            cursor: pointer;
+            font-size: 0.95rem;
+        }
+
+        input[type="radio"] {
+            margin-right: 8px;
+            accent-color: #1a5f4a;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1rem;
+            margin-top: 4px;
+        }
+
+        textarea {
+            min-height: 80px;
+            resize: vertical;
+        }
+
+        .opcional {
+            font-size: 0.8rem;
+            color: #777;
+        }
+
+        button {
+            width: 100%;
+            padding: 14px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #fff;
+            background: #1a5f4a;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin-top: 8px;
+        }
+
+        button:hover {
+            background: #14503e;
+        }
+
+        .obrigatorio {
+            color: #a00;
+        }
+
+        .msg-envio {
+            text-align: center;
+            padding: 20px;
+            color: #1a5f4a;
+            font-weight: 600;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Questionário – Lixo Eletrônico e Energia</h1>
+    <p class="subtitulo">Projeto PIESC II – Engenharia Elétrica EaD Uningá. Respostas anônimas, uso apenas acadêmico.</p>
+
+    <form id="form" action="https://formspree.io/f/mojnbeeo" method="POST">
+        <input type="hidden" name="_subject" value="Resposta Questionário PIESC II - Lixo Eletrônico">
+
+        <section>
+            <h2>Perfil (opcional)</h2>
+            <div class="pergunta">
+                <label>Idade ou faixa etária <span class="opcional">opcional</span></label>
+                <input type="text" name="perfil_idade" placeholder="Ex: 25 anos ou 20-30">
+            </div>
+            <div class="pergunta">
+                <label>Cidade / região <span class="opcional">opcional</span></label>
+                <input type="text" name="perfil_cidade" placeholder="Ex: Maringá - PR">
+            </div>
+            <div class="pergunta">
+                <label>Escolaridade <span class="opcional">opcional</span></label>
+                <select name="perfil_escolaridade">
+                    <option value="">Selecione (opcional)</option>
+                    <option value="Fundamental">Fundamental</option>
+                    <option value="Médio">Médio</option>
+                    <option value="Superior">Superior</option>
+                    <option value="Pós-graduação">Pós-graduação</option>
+                </select>
+            </div>
+        </section>
+
+        <section>
+            <h2>Lixo eletrônico e descarte</h2>
+            <div class="pergunta">
+                <strong>1. Você já ouviu falar em "lixo eletrônico" ou "e-lixo" (celulares, pilhas, baterias, computadores, cabos)?</strong>
+                <label><input type="radio" name="q1_elixo" value="Sim" required> Sim</label>
+                <label><input type="radio" name="q1_elixo" value="Não"> Não</label>
+                <label><input type="radio" name="q1_elixo" value="Não tenho certeza"> Não tenho certeza</label>
+            </div>
+            <div class="pergunta">
+                <strong>2. O que você costuma fazer com pilhas e baterias quando não servem mais?</strong>
+                <label><input type="radio" name="q2_pilhas" value="Jogo no lixo comum" required> Jogo no lixo comum</label>
+                <label><input type="radio" name="q2_pilhas" value="Guardo em casa"> Guardo em casa</label>
+                <label><input type="radio" name="q2_pilhas" value="Levo a ponto de coleta/reciclagem"> Levo a ponto de coleta/reciclagem</label>
+                <label><input type="radio" name="q2_pilhas" value="Devolvo na loja ou em campanhas"> Devolvo na loja ou em campanhas</label>
+                <label><input type="radio" name="q2_pilhas" value="Outro"> Outro:</label>
+                <input type="text" name="q2_pilhas_outro" placeholder="Se marcou Outro, descreva" style="margin-left: 20px; margin-top: 4px;">
+            </div>
+            <div class="pergunta">
+                <strong>3. E com celulares ou aparelhos eletrônicos antigos?</strong>
+                <label><input type="radio" name="q3_celulares" value="Jogo no lixo comum" required> Jogo no lixo comum</label>
+                <label><input type="radio" name="q3_celulares" value="Guardo em casa"> Guardo em casa</label>
+                <label><input type="radio" name="q3_celulares" value="Dou para alguém ou vendo"> Dou para alguém ou vendo</label>
+                <label><input type="radio" name="q3_celulares" value="Levo a ponto de coleta/reciclagem"> Levo a ponto de coleta/reciclagem</label>
+                <label><input type="radio" name="q3_celulares" value="Outro"> Outro:</label>
+                <input type="text" name="q3_celulares_outro" placeholder="Se marcou Outro, descreva" style="margin-left: 20px; margin-top: 4px;">
+            </div>
+            <div class="pergunta">
+                <strong>4. Você sabe onde há ponto de coleta de lixo eletrônico na sua cidade ou região?</strong>
+                <label><input type="radio" name="q4_ponto" value="Sim" required> Sim</label>
+                <label><input type="radio" name="q4_ponto" value="Não"> Não</label>
+                <label><input type="radio" name="q4_ponto" value="Não sei informar"> Não sei informar</label>
+            </div>
+            <div class="pergunta">
+                <strong>5. Na sua opinião, qual a importância de descartar corretamente pilhas, baterias e celulares?</strong>
+                <label><input type="radio" name="q5_importancia" value="Muito importante (meio ambiente e saúde)" required> Muito importante (meio ambiente e saúde)</label>
+                <label><input type="radio" name="q5_importancia" value="Importante, mas não sei bem como fazer"> Importante, mas não sei bem como fazer</label>
+                <label><input type="radio" name="q5_importancia" value="Pouco importante"> Pouco importante</label>
+                <label><input type="radio" name="q5_importancia" value="Não tenho opinião formada"> Não tenho opinião formada</label>
+            </div>
+        </section>
+
+        <section>
+            <h2>Consumo consciente de energia</h2>
+            <div class="pergunta">
+                <strong>6. Você costuma desligar aparelhos da tomada quando não está usando (evitar stand-by)?</strong>
+                <label><input type="radio" name="q6_tomada" value="Sempre" required> Sempre</label>
+                <label><input type="radio" name="q6_tomada" value="Às vezes"> Às vezes</label>
+                <label><input type="radio" name="q6_tomada" value="Raramente"> Raramente</label>
+                <label><input type="radio" name="q6_tomada" value="Nunca"> Nunca</label>
+            </div>
+            <div class="pergunta">
+                <strong>7. Em casa, você utiliza lâmpadas LED ou de baixo consumo?</strong>
+                <label><input type="radio" name="q7_led" value="Sim, na maioria dos cômodos" required> Sim, na maioria dos cômodos</label>
+                <label><input type="radio" name="q7_led" value="Em parte"> Em parte</label>
+                <label><input type="radio" name="q7_led" value="Não"> Não</label>
+                <label><input type="radio" name="q7_led" value="Não sei"> Não sei</label>
+            </div>
+            <div class="pergunta">
+                <strong>8. Você considera que pratica economia de energia no dia a dia (luz, chuveiro, geladeira, eletrônicos)?</strong>
+                <label><input type="radio" name="q8_economia" value="Sim, bastante" required> Sim, bastante</label>
+                <label><input type="radio" name="q8_economia" value="Em parte"> Em parte</label>
+                <label><input type="radio" name="q8_economia" value="Pouco"> Pouco</label>
+                <label><input type="radio" name="q8_economia" value="Não"> Não</label>
+            </div>
+            <div class="pergunta">
+                <strong>9. Para você, qual a relação entre "consumo consciente de energia" e "meio ambiente"?</strong>
+                <label><input type="radio" name="q9_relacao" value="Muito relacionado (reduz impacto e desperdício)" required> Muito relacionado (reduz impacto e desperdício)</label>
+                <label><input type="radio" name="q9_relacao" value="Relacionado, mas não penso muito nisso"> Relacionado, mas não penso muito nisso</label>
+                <label><input type="radio" name="q9_relacao" value="Pouco relacionado"> Pouco relacionado</label>
+                <label><input type="radio" name="q9_relacao" value="Não sei"> Não sei</label>
+            </div>
+        </section>
+
+        <section>
+            <h2>Sugestão ou comentário (opcional)</h2>
+            <div class="pergunta">
+                <label>Alguma sugestão sobre reciclagem de eletrônicos ou economia de energia na sua região?</label>
+                <textarea name="comentario" placeholder="Escreva aqui se quiser..."></textarea>
+            </div>
+        </section>
+
+        <button type="submit">Enviar respostas</button>
+    </form>
+
+    <p class="msg-envio" id="msg">Obrigado! Suas respostas foram enviadas.</p>
+
+    <script>
+        document.getElementById('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            var form = this;
+            var msg = document.getElementById('msg');
+            fetch(form.action, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(function() {
+                    form.style.display = 'none';
+                    msg.style.display = 'block';
+                })
+                .catch(function() {
+                    alert('Erro ao enviar. Verifique o link do formulário ou tente de novo.');
+                });
+        });
+    </script>
+</body>
+
+</html>

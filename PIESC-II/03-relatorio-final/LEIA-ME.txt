@@ -1,0 +1,20 @@
+PASTA: 03-relatorio-final
+================================
+
+O QUE FAZER AQUI:
+Elaborar o RELATÓRIO TÉCNICO FINAL (vale 7,0 pontos) com:
+- Síntese dos achados e evidências do trabalho
+- Análises
+- Sugestões de melhorias e recomendações para práticas sustentáveis na engenharia elétrica
+
+COMO:
+- Use o MODELO DE RELATÓRIO da pasta 00-documentos-originais (trabalhe em CÓPIA).
+- Siga as regras ABNT (arquivo REGRAS-ABNT-PIESC.md na pasta PIESC-II).
+- Inclua evidências: resultados do questionário, fotos das atividades, referências às leituras.
+
+ONDE ENTREGAR:
+- Portal Uningá → Página do PIESC II → Bloco "Relatório Final"
+- Respeitar o PRAZO indicado na disciplina.
+
+SUGESTÃO DE NOME:
+Relatorio-Final-PIESC-II-2025-Luis-Felipe.docx (e .pdf para entrega, se solicitado)

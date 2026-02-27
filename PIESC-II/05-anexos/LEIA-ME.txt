@@ -1,0 +1,15 @@
+PASTA: 05-anexos
+================================
+
+O QUE GUARDAR AQUI:
+- Fotos das atividades (coleta, recebimento na sede, oficinas, campanhas).
+- Tabelas e gráficos dos questionários (exportados do Excel/Google Forms).
+- Materiais de divulgação (redes sociais, cartazes).
+- Qualquer evidência que comprove e ilustre o trabalho realizado.
+
+ORGANIZE como preferir, por exemplo:
+- fotos-coleta/
+- graficos-questionario/
+- divulgacao/
+
+No Relatório Final, referencie os anexos no texto (ex.: "Conforme Anexo A") e inclua as imagens/tabelas no documento conforme o modelo da disciplina.

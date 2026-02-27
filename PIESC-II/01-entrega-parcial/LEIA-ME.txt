@@ -1,0 +1,21 @@
+<!-- cSpell:disable -->
+PASTA: 01-entrega-parcial
+================================
+
+O QUE FAZER AQUI:
+Escrever o texto da ENTREGA PARCIAL (vale 3,0 pontos), em formato de resposta de fórum, respondendo a:
+
+1) Quais leituras consultou ou pretende consultar para a revisão sobre conscientização, reciclagem e impactos ambientais do lixo eletrônico? Como estruturou ou pretende estruturar o projeto?
+
+2) Como pretende trabalhar nas etapas adaptáveis? (comentar as que pretende focar: coleta, recebimento na sede Maringá, oficinas/desmontagem, reaproveitamento/geração de energia, ações de conscientização)
+
+3) O que pretende realizar para elaborar a análise e estruturar o Relatório Final?
+
+ONDE ENTREGAR:
+- Portal Uningá → Página do PIESC II → Bloco "Entrega Parcial"
+- Respeitar o PRAZO indicado na disciplina.
+
+SUGESTÃO DE NOME DO ARQUIVO:
+Entrega-Parcial-PIESC-II-2025-Luis-Felipe.docx (ou .md)
+
+Guarde aqui a versão final que você enviou.

@@ -1,0 +1,19 @@
+<!-- cSpell:disable -->
+PASTA: 02-questionarios
+================================
+
+O QUE GUARDAR AQUI:
+- Cópia do questionário que você montou (baseado no MODELO QUESTIONARIO da pasta 00-documentos-originais).
+- Respostas coletadas (planilha .xlsx, .csv ou pelo Formspree/Google Forms).
+- Breve texto descrevendo: onde foi aplicado, quantas pessoas responderam, período.
+
+LINK DO QUESTIONÁRIO (escolha uma forma):
+- USAR-GOOGLE-FORMS-PASSO-A-PASSO.md = forma mais simples: criar no Google Forms, copiar o link e compartilhar (sem Netlify, sem deploy).
+- questionario-online.html + Formspree = alternativa em HTML (ver COMO-GERAR-LINK-DO-QUESTIONARIO.md).
+Fotos em campo com a pessoa: tire separado e guarde em 05-anexos.
+
+SUGESTÃO DE NOMES:
+- respostas-questionario.xlsx (exportar do Formspree ou Google Sheets)
+- onde-foi-aplicado.txt
+
+Os resultados serão usados no RELATÓRIO FINAL (metodologia, gráficos, tabelas, anexos).

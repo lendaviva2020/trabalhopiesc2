@@ -1,0 +1,16 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cursor / IDE
+.cursor/
+
+# Arquivos temporários
+*.tmp
+*.temp
+~$*
+
+# Evitar subir documentos com dados pessoais (opcional - remova se quiser versionar)
+# *.docx
+# *.pdf

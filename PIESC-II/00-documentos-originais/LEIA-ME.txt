@@ -1,0 +1,20 @@
+<!-- cSpell:disable -->
+PASTA: 00-documentos-originais
+================================
+
+O QUE GUARDAR AQUI:
+- FORMULÁRIO PROPOSTA PIESC II 2025.pdf
+- PIESC 2 APRESENTAÇÃO 2025.pdf
+- MODELO QUESTIONARIO.docx (modelo da faculdade)
+- MODELO DE RELATÓRIO.doc (modelo da faculdade)
+
+INSTRUÇÕES:
+- Cole aqui os arquivos que a disciplina enviar (PDFs e modelos).
+- NÃO altere estes arquivos. Use-os só como referência.
+- Para preencher questionário ou relatório, faça CÓPIA e salve na pasta correspondente (02-questionarios ou 03-relatorio-final).
+
+Quando enviar documentos prontos seguindo o padrão do projeto, mantenha os nomes claros, por exemplo:
+  Formulario-Proposta-PIESC-II-2025.pdf
+  Apresentacao-PIESC-2-2025.pdf
+  Modelo-Questionario.docx
+  Modelo-Relatorio.doc

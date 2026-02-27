@@ -1,0 +1,14 @@
+PASTA PARA O NETLIFY DROP
+=========================
+
+Esta pasta tem só o questionário como "página inicial" (index.html).
+
+COMO USAR:
+1. Abra https://app.netlify.com/drop
+2. Arraste ESTA PASTA INTEIRA ("deploy-netlify") para a área de soltar.
+3. A Netlify vai gerar um link (ex.: https://algum-nome.netlify.app)
+4. Esse link JÁ abre o questionário direto (sem /questionario-online.html).
+   Não dá mais 404.
+
+Use esse novo link para compartilhar com as pessoas.
+As respostas continuam caindo no Formspree (mojnbeeo).

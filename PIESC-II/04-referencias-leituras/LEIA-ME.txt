@@ -1,0 +1,14 @@
+PASTA: 04-referencias-leituras
+================================
+
+O QUE GUARDAR AQUI:
+- Lista de leituras (livros, artigos, sites, normas) usadas na revisão sobre lixo eletrônico, reciclagem, impactos ambientais, consumo consciente de energia.
+- Anotações e resumos que ajudem a redigir a entrega parcial e o relatório final.
+- Referências já formatadas em ABNT (NBR 6023) para copiar para o relatório.
+
+SUGESTÃO DE NOMES:
+- lista-leituras.md
+- anotacoes-revisao.md
+- referencias-abnt.txt
+
+No relatório final, cite no texto (autor-data, NBR 10520) e inclua a lista completa em "Referências".
