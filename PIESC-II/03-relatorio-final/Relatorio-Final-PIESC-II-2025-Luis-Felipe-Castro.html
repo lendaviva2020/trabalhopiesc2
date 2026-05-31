@@ -24,6 +24,14 @@
     li { margin: 0.25em 0; }
     .anexo-img { max-width: 100%; width: 14cm; height: auto; display: block; margin: 0.5em 0 1em 0; border: 1px solid #ccc; }
     .figura-legenda { font-size: 10pt; text-align: center; margin-bottom: 1em; }
+    /* Estilos para Tabelas Acadêmicas Padrão IBGE/ABNT */
+    table { width: 100%; border-collapse: collapse; margin: 1.5em 0; font-size: 10pt; font-family: 'Times New Roman', serif; }
+    table th, table td { padding: 6px 8px; text-align: left; line-height: 1.2; }
+    table th { border-top: 1.5px solid #000; border-bottom: 1px solid #000; font-weight: bold; text-align: left; }
+    table td { border-bottom: 1px solid #ddd; }
+    table tr:last-child td { border-bottom: 1.5px solid #000; }
+    .table-caption { font-size: 10pt; text-align: left; margin-top: 1em; margin-bottom: 4px; font-weight: bold; }
+    .table-source { font-size: 9pt; text-align: left; margin-top: 4px; margin-bottom: 1.5em; font-style: italic; }
   </style>
 </head>
 <body>
@@ -109,9 +117,197 @@
 <!-- 4. RESULTADOS E DISCUSSÃO -->
 <div class="quebrapagina">
   <h2>4. Resultados e discussão</h2>
-  <p>O questionário online permitiu alcançar respondentes de forma remota, adequada ao contexto EaD. A tabulação das respostas (percentuais por pergunta) pode ser feita a partir da planilha do Google Forms e dos recursos de resumo do próprio formulário, permitindo caracterizar o nível de conhecimento sobre lixo eletrônico, as práticas de descarte (pilhas, baterias, celulares) e os hábitos relacionados ao consumo de energia. Espera-se que parte dos respondentes ainda descarte equipamentos no lixo comum ou os guarde em casa, e que a proporção que conhece pontos de coleta ou pratica descarte correto seja limitada, em linha com os dados nacionais que apontam apenas 3,3% de reciclagem de eletrônicos no Brasil. A análise detalhada dos dados do questionário, com tabelas e gráficos, deve ser incorporada na versão final do relatório conforme o volume de respostas obtido. A divulgação do link do formulário em redes sociais e para contatos permitiu ampliar o alcance da pesquisa e cumprir o objetivo de levantar percepções e práticas da comunidade em relação ao tema.</p>
-  <p>A coleta de resíduos eletroeletrônicos resultou no registro de diversos tipos de equipamentos e componentes, em consonância com os objetivos do projeto. O material coletado incluiu fontes de alimentação (PSU), notebooks, discos rígidos (HD), unidades de estado sólido (SSD), módulos de memória (RAM), baterias, celulares, tablets e componentes de desktop (placas-mãe, coolers, cabos), conforme registrado no Anexo A (Figuras 1 a 4). As figuras documentam vista geral do material reunido (celulares, tablets e notebooks com telas quebradas e embalagens), detalhe de HD Western Digital 500GB, computador desktop desmontado com placa-mãe, HD Samsung, cooler e fonte, e outra vista do gabinete aberto com PSU e ventiladores. Esses itens representam resíduos que, se descartados incorretamente, contribuiriam para contaminação ambiental e desperdício de materiais recuperáveis; a documentação serve como evidência da atividade de coleta e de conscientização sobre destinação adequada.</p>
-  <p>As limitações do trabalho incluem o alcance amostral do questionário (conveniente, não probabilístico) e o fato de parte das etapas adaptáveis (oficinas presenciais, recebimento na sede em Maringá) depender da oferta da instituição. Ainda assim, a integração entre revisão bibliográfica, aplicação do questionário e registro da coleta permite cumprir os objetivos do PIESC II e fundamentar recomendações para a continuidade de ações de extensão e para a formação em engenharia elétrica com foco em sustentabilidade.</p>
+  
+  <h3>4.1. Análise do Perfil dos Respondentes</h3>
+  <p>O questionário de pesquisa de campo foi aplicado entre 27 de fevereiro e 05 de março de 2026, obtendo a participação de 10 respondentes das regiões de Cafelândia (PR), Corbélia (PR) e São Luís (MA). O público-alvo foi composto por profissionais de setores técnicos operacionais, de saúde e segurança, permitindo correlacionar os achados com a prática de diferentes profissões. A amostra incluiu eletricistas e mecânicos de manutenção, técnicos em segurança do trabalho (SESMT), profissionais de saúde pública (Centro de Imunização) e do setor varejista. Em relação à escolaridade, a amostra apresentou 30% dos participantes com Ensino Médio, 50% com Ensino Superior e 20% com nível de Pós-graduação.</p>
+
+  <p class="table-caption">Tabela 1 – Perfil dos Participantes da Pesquisa</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 10%;">Nº</th>
+        <th style="width: 30%;">Responsável</th>
+        <th style="width: 35%;">Cargo / Área</th>
+        <th style="width: 25%;">Localidade</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Fabrício (Anônimo)</td>
+        <td>Aux. Limpeza e Manut. de Ar-Condicionado</td>
+        <td>Cafelândia - PR</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Catiana (Anônimo)</td>
+        <td>Téc. de Enfermagem (Centro de Imunização)</td>
+        <td>Cafelândia - PR</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Anônimo</td>
+        <td>Eletricista de Manutenção Industrial</td>
+        <td>Cafelândia - PR</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Anônimo</td>
+        <td>Vendedora de Roupas e Perfumes</td>
+        <td>São Luís - MA</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Alexandre Paulino dos Santos</td>
+        <td>Eletricista de Manutenção</td>
+        <td>Cafelândia - PR</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Alexandre Balbino Soares</td>
+        <td>Técnico de Segurança do Trabalho (SESMT)</td>
+        <td>Cafelândia - PR</td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>Anônimo</td>
+        <td>Técnico de Segurança do Trabalho (SESMT)</td>
+        <td>Cafelândia - PR</td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>Luciene Ferreira</td>
+        <td>Técnica de Segurança do Trabalho (SESMT)</td>
+        <td>São Luís - MA</td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>Claudineia Oliveira de Souza</td>
+        <td>Técnica de Segurança do Trabalho (SESMT)</td>
+        <td>Corbélia - PR</td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>Ozéias Moraes Batista</td>
+        <td>Técnico de Segurança do Trabalho (SESMT)</td>
+        <td>Cafelândia - PR</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="table-source">Fonte: Dados da pesquisa (2026).</p>
+
+  <h3>4.2. Percepção sobre Lixo Eletrônico e Descarte</h3>
+  <p>Os resultados mostraram que 100% dos entrevistados já ouviram falar sobre "lixo eletrônico" ou "e-lixo", o que indica que o termo é amplamente difundido na sociedade. No entanto, quando questionados se sabem onde há pontos de coleta de lixo eletrônico na sua cidade ou região, as respostas evidenciam uma grande lacuna prática: apenas 50% responderam que "Sim", enquanto 40% afirmaram que "Não" e 10% disseram "Não sei informar".</p>
+  <p>Essa lacuna entre o conhecimento teórico e a ação prática é diretamente corroborada pela literatura nacional: embora os cidadãos reconheçam o e-lixo, o desconhecimento dos fluxos de entrega e a falta de infraestrutura física de coleta resultam na baixíssima taxa de reciclagem do país (3,3%, conforme O GLOBO, 2025). As sugestões coletadas apontam a falta de ecopontos fixos como o maior obstáculo, restringindo a destinação correta a mutirões semestrais promovidos pelas prefeituras locais.</p>
+
+  <p class="table-caption">Tabela 2 – Hábitos de Descarte de Resíduos Eletrônicos (N = 10)</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 40%;">Opção de Descarte</th>
+        <th style="width: 30%; text-align: center;">Pilhas e Baterias</th>
+        <th style="width: 30%; text-align: center;">Celulares e Eletroportáteis</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Guardo em casa</td>
+        <td style="text-align: center;">40% (4)</td>
+        <td style="text-align: center;">50% (5)</td>
+      </tr>
+      <tr>
+        <td>Levo a ponto de coleta/reciclagem</td>
+        <td style="text-align: center;">30% (3)</td>
+        <td style="text-align: center;">30% (3)</td>
+      </tr>
+      <tr>
+        <td>Jogo no lixo comum</td>
+        <td style="text-align: center;">20% (2)</td>
+        <td style="text-align: center;">0% (0)</td>
+      </tr>
+      <tr>
+        <td>Devolvo na loja / campanhas</td>
+        <td style="text-align: center;">10% (1)</td>
+        <td style="text-align: center;">0% (0)</td>
+      </tr>
+      <tr>
+        <td>Dou para alguém ou vendo</td>
+        <td style="text-align: center;">0% (0)</td>
+        <td style="text-align: center;">20% (2)</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="table-source">Fonte: Dados da pesquisa (2026).</p>
+
+  <p>Conforme observado na Tabela 2, o descarte inadequado de pilhas e baterias no lixo comum ainda atinge 20% da amostra, representando um grave perigo químico de contaminação por metais pesados (chumbo, cádmio e mercúrio) em aterros, contrariando a Resolução CONAMA nº 401/2008. Além disso, a prática de reter e guardar os aparelhos em casa atinge 40% para pilhas/baterias e 50% para celulares antigos. Essa retenção domiciliar impede o fluxo de logística reversa regulamentado pelo Decreto nº 10.240/2020 e inviabiliza a mineração urbana, que poderia recuperar metais preciosos e reinseri-los no ciclo produtivo, minimizando o impacto ambiental da extração de novos minérios (VALOR ECONÔMICO, 2025).</p>
+
+  <h3>4.3. Hábitos de Economia de Energia Elétrica</h3>
+  <p>A pesquisa de campo também buscou caracterizar os hábitos de consumo energético residencial. Quanto à prática de retirar equipamentos eletrônicos da tomada para evitar o consumo silencioso em modo de espera (*stand-by*), os dados indicam um elevado potencial de desperdício: apenas 10% retiram "Sempre", 30% "Às vezes", 30% "Raramente" e 30% "Nunca". Conforme a literatura especializada (ECYCLE, [202-]), o modo *stand-by* de televisores, micro-ondas, computadores e carregadores pode responder por até 12% a 20% do consumo total de energia elétrica residencial, o que reforça a urgência de conscientização comunitária.</p>
+
+  <p class="table-caption">Tabela 3 – Práticas de Eficiência e Economia de Energia (N = 10)</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="width: 50%;">Pergunta e Opção de Resposta</th>
+        <th style="width: 25%; text-align: center;">Percentual</th>
+        <th style="width: 25%; text-align: center;">Frequência (N)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td colspan="3" style="font-weight: bold; border-bottom: 1px solid #000;">Uso de Lâmpadas LED em Residência:</td>
+      </tr>
+      <tr>
+        <td>Sim, na maioria dos cômodos</td>
+        <td style="text-align: center;">50%</td>
+        <td style="text-align: center;">5</td>
+      </tr>
+      <tr>
+        <td>Em parte</td>
+        <td style="text-align: center;">20%</td>
+        <td style="text-align: center;">2</td>
+      </tr>
+      <tr>
+        <td>Não sei</td>
+        <td style="text-align: center;">30%</td>
+        <td style="text-align: center;">3</td>
+      </tr>
+      <tr>
+        <td colspan="3" style="font-weight: bold; border-bottom: 1px solid #000;">Prática Geral de Economia de Energia no Dia a Dia:</td>
+      </tr>
+      <tr>
+        <td>Sim, bastante</td>
+        <td style="text-align: center;">60%</td>
+        <td style="text-align: center;">6</td>
+      </tr>
+      <tr>
+        <td>Em parte</td>
+        <td style="text-align: center;">30%</td>
+        <td style="text-align: center;">3</td>
+      </tr>
+      <tr>
+        <td>Pouco</td>
+        <td style="text-align: center;">10%</td>
+        <td style="text-align: center;">1</td>
+      </tr>
+    </tbody>
+  </table>
+  <p class="table-source">Fonte: Dados da pesquisa (2026).</p>
+
+  <p>Embora 60% se considerem bastante econômicos no dia a dia (Tabela 3), nota-se que 30% desconhecem se utilizam lâmpadas eficientes (LED), evidenciando que práticas eficientes ainda precisam de maior divulgação técnica. A correlação entre o consumo consciente e a preservação do meio ambiente foi avaliada como "Muito relacionada" por 70% dos respondentes, enquanto 10% consideraram "Relacionado, mas não penso nisso", 10% "Pouco relacionado" e 10% "Não sei". Isso demonstra que a maioria compreende que economizar energia alivia a pressão sobre a matriz energética e evita o acionamento de usinas termelétricas, poluentes e dispendiosas (ECYCLE, [202-]).</p>
+
+  <h3>4.4. Análise Qualitativa da Percepção de Sustentabilidade</h3>
+  <p>A pergunta discursiva **"Qual o seu entendimento de sustentabilidade?"** revelou que a percepção ambiental é fortemente moldada pela rotina profissional de cada cidadão, demonstrando a transversalidade do tema:</p>
+  <ul>
+    <li>**Setor de Manutenção e Instalações Elétricas (Eletricistas/Auxiliares):** Associaram sustentabilidade de forma direta à eficiência operacional, redução de perdas térmicas ou elétricas em motores e cabeamento, manutenção preventiva e reaproveitamento seguro de sucatas de cobre e componentes metálicos, além de defenderem o investimento em microgeração fotovoltaica regional.</li>
+    <li>**Setor de Saúde Pública (Centro de Imunização):** Relacionou o conceito à prevenção coletiva e à preservação da vida. Destacou a necessidade urgente de gerenciamento de resíduos perigosos e contaminantes (como o lixo eletrônico hospitalar e pilhas) para evitar contaminações ambientais que adoeçam as futuras gerações.</li>
+    <li>**Setor de Engenharia e Segurança do Trabalho (SESMT/Técnicos):** Apresentou uma visão focada em conformidade, saúde ocupacional e eliminação de agentes de risco químico e ambiental (metais pesados). A sustentabilidade foi definida como o dever ético e corporativo de integrar a integridade dos processos industriais à preservação ecológica, cumprindo rigorosamente as políticas de logística reversa e gerenciamento de riscos de resíduos eletroeletrônicos.</li>
+  </ul>
+
+  <h3>4.5. Registro e Discussão da Coleta Física de Materiais (Etapa Prática)</h3>
+  <p>A coleta de resíduos eletroeletrônicos resultou no registro de diversos tipos de equipamentos e componentes, em consonância com os objetivos do projeto. O material coletado incluiu fontes de alimentação (PSU), notebooks antigos, discos rígidos (HD), unidades de estado sólido (SSD), módulos de memória (RAM), baterias usadas, celulares antigos, tablets avariados e componentes de computadores desktop (placas-mãe, coolers e cabos), conforme registrado no Anexo A (Figuras 1 a 4).</p>
+  <p>As figuras documentam a vista geral do material reunido (celulares, tablets e notebooks com telas quebradas e embalagens de componentes), detalhe do disco rígido Western Digital Blue de 500GB coletado, computador desktop desmontado evidenciando placa-mãe, HD Samsung, cooler e fonte, e outra vista detalhada do gabinete aberto. Esses itens representam o e-lixo que, se descartado no fluxo convencional, causaria grandes danos ambientais. O registro atua como evidência prática da atividade de extensão e reforça a viabilidade do descarte adequado de componentes por meio da triagem e da logística reversa, demonstrando a conexão entre a teoria acadêmica estudada e a intervenção prática na comunidade.</p>
+  <p>As limitações do trabalho incluem a amostra conveniente e não probabilística do questionário e as restrições logísticas de infraestrutura na região (ausência de pontos fixos de coleta em Cafelândia). No entanto, a união entre a fundamentação teórica, a aplicação do formulário digital e a coleta física com registro fotográfico garantiu a consistência científica exigida pela ementa do PIESC II, servindo como base sólida para propor diretrizes de melhorias em eficiência energética e logística reversa na engenharia elétrica.</p>
 </div>
 
 <!-- 5. CONCLUSÃO -->
