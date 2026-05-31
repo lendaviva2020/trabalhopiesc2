@@ -1,8 +1,7 @@
 <!-- cSpell:disable -->
 # Entrega Parcial – PIESC II | Transformando Lixo Eletrônico em Energia
 
-**Aluno:** Luis Felipe Ferreira Castro  
-**RA:** 192182-24  
+**Alunos:** Luis Felipe Ferreira Castro (RA: 192182-24) e Alexandre Paulino dos Santos (RA: 199961-25)  
 **Curso:** Engenharia Elétrica EaD – Uningá  
 **Disciplina:** PIESC II  
 **Data:** 27 de fevereiro de 2026  

@@ -4,8 +4,7 @@
 **Disciplina:** PIESC II – Programa de Integração Escola Comunidade  
 **Professora:** Mariza Akiko Utida  
 **Data:** 27 de fevereiro a 05 de março de 2026  
-**Aluno(a):** Luis Felipe Ferreira Castro  
-**R.A.:** 192182-24  
+**Alunos:** Luis Felipe Ferreira Castro (RA: 192182-24) e Alexandre Paulino dos Santos (RA: 199961-25)  
 
 ---
 

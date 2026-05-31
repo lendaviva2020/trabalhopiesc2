@@ -2,7 +2,7 @@
 # Base para o Relatório Técnico Final – PIESC II
 
 **Projeto:** Transformando Lixo Eletrônico em Energia  
-**Aluno:** Luis Felipe Ferreira Castro | **RA:** 192182-24  
+**Alunos:** Luis Felipe Ferreira Castro (RA: 192182-24) e Alexandre Paulino dos Santos (RA: 199961-25)  
 **Curso:** Engenharia Elétrica EaD – Uningá  
 
 Este arquivo é uma **base de conteúdo** para redigir o Relatório Final no **MODELO DE RELATÓRIO** da disciplina. Formatação e estrutura final devem seguir ABNT (ver REGRAS-ABNT-PIESC.md) e o modelo oficial.

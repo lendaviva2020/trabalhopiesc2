@@ -4,7 +4,7 @@
 **Objetivo:** Levantar percepções e práticas sobre descarte de lixo eletrônico (pilhas, baterias, celulares) e consumo consciente de energia elétrica.  
 **Uso:** Aplicar conforme modelo oficial da disciplina (MODELO QUESTIONARIO). Guardar respostas em planilha e usar no Relatório Final.
 
-**Dados do aplicador:** Luis Felipe Ferreira Castro | RA 192182-24 | Engenharia Elétrica EaD – Uningá.
+**Dados dos aplicadores:** Luis Felipe Ferreira Castro (RA 192182-24) e Alexandre Paulino dos Santos (RA 199961-25) | Engenharia Elétrica EaD – Uningá.
 
 ---
 

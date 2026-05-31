@@ -1,6 +1,6 @@
 # Passo a passo – PIESC II | Transformando Lixo Eletrônico em Energia
 
-**Aluno:** Luis Felipe Ferreira Castro | **RA:** 192182-24  
+**Alunos:** Luis Felipe Ferreira Castro (RA: 192182-24) & Alexandre Paulino dos Santos (RA: 199961-25)  
 **Curso:** Engenharia Elétrica EaD – Uningá | **Ano:** 2025  
 
 ---
